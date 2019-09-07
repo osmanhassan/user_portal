@@ -1,1 +1,3 @@
-# user_portal
+# User Portal
+
+At /src/main/resources/application.properties
