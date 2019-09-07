@@ -13,7 +13,7 @@
 <head>
     <title>User Portal</title>
     <%@ include file="partials/css.jsp"%>
-    <link rel="stylesheet" href="/resources/css/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="<c:url value="/resources/css/jquery.datetimepicker.min.css"/>" >
 </head>
 <body>
 <div class="container">
@@ -106,8 +106,9 @@
     </div>
 
 </div>
-<script type="application/javascript" src="/resources/js/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
-<script type="application/javascript" src="/resources/js/datepicker/jquery.datetimepicker.full.min.js"></script>
-<script type="application/javascript" src="/resources/js/registration.js"></script>
+<script type="application/javascript" src="<c:url value="/resources/js/jQuery-3.3.1/jquery-3.3.1.min.js"/>" ></script>
+<script type="application/javascript" src="<c:url value="/resources/js/datepicker/jquery.datetimepicker.full.min.js"/>" ></script>
+<script type="application/javascript" src="<c:url value="/resources/js/registration.js"/>" ></script>
+
 </body>
 </html>

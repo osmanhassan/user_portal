@@ -8,7 +8,7 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <t:content>
-    <link rel="stylesheet" href="/resources/css/datatables.min.css" >
+    <link rel="stylesheet" href="<c:url value="/resources/css/datatables.min.css"/>"  >
     <table id="dt" class="table table-striped ">
         <thead>
         <tr>
@@ -31,7 +31,7 @@
         </tbody>
     </table>
 
-    <script type="application/javascript" src="/resources/js/datatable/datatables.min.js"></script>
+    <script type="application/javascript" src="<c:url value="/resources/js/datatable/datatables.min.js"/>" ></script>
     <script type="application/javascript">
         $(document).ready(function () {
             $("#dt").DataTable({

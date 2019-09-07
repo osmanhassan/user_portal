@@ -40,5 +40,5 @@
         </div>
 
     </div>
-    <script type="application/javascript" src="/resources/js/change-password.js"></script>
+    <script type="application/javascript" src="<c:url value="/resources/js/change-password.js"/>"></script>
 </t:content>
