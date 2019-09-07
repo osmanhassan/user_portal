@@ -8,7 +8,7 @@ $(document).ready(function () {
     if(errorMessage){
         if(errorMessage != ""){
             $("#errorMessage").addClass("p-2");
-            $("#errorMessage").toggle(10000);
+            $("#errorMessage").toggle(15000);
         }
     }
 
