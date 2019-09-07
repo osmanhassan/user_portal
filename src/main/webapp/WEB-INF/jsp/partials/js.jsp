@@ -7,27 +7,4 @@
 --%>
 
 <script type="application/javascript" src="/resources/js/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
-<script type="application/javascript">
-    $(document).ready(function () {
-        $("#drpMenubtn").click(function () {
-            $("#drpMenu").toggle();
-        });
-        var successMessage = $("#successMessage").html();
-        var errorMessage = $("#errorMessage").html();
-
-        if(errorMessage){
-            if(errorMessage != ""){
-                $("#errorMessage").addClass("p-2");
-                $("#errorMessage").toggle(10000);
-            }
-        }
-
-        if(successMessage){
-            if(successMessage != ""){
-                $("#successMessage").addClass("p-2");
-                $("#successMessage").toggle(10000);
-            }
-        }
-
-    });
-</script>
+<script type="application/javascript" src="/resources/js/global.js"></script>
